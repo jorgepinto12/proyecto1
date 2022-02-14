@@ -1,0 +1,68 @@
+div.menu {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  background-color: orange;
+}
+ul.menuprincipal {
+  margin: 10px auto;
+  padding: 6%;
+}
+.menuprincipal li {
+  display: inline;
+  text-align: center;
+  color: rgb(240, 240, 245);
+  background: #e9eaec;
+  padding: 50px; 
+  border-radius: 5%;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  list-style:none;
+  position: relative;
+  left:7%;
+
+}
+  .col-25 {
+  float: left;
+  width: 45%;
+  height: 8%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 55%;
+  margin-top: 6px;
+  height: 8%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type=text], select, textarea {
+  width: auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float: left;
+}
+label {
+  padding: 0;
+  display: inline;
+  float: right;
+}
+input[type=submit] {
+  background-color: hsl(246, 87%, 50%);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
